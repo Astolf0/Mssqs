@@ -8,9 +8,9 @@ namespace l3
 {
     class Program
     {
-        static int umnosh (ref int a, ref int b)
+        static double podeli (ref int a, ref int b)
         {
-            int g = a * b;
+            double g = a /Convert.ToDouble(b);
             return g;
         }
     }
