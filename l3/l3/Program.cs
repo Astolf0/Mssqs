@@ -8,15 +8,11 @@ namespace l3
 {
     class Program
     {
-        static void Main(string[] args)
+         
+        static int umnosh(ref int a, ref int b)
         {
-            Console.Write("Enter A: ");
-            int a = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter B: ");
-            int b = int.Parse(Console.ReadLine());
-
-            Console.ReadKey();
+            int g = a * b
+            return g;
         }
     }
 }
