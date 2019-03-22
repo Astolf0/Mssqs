@@ -8,11 +8,6 @@ namespace l3
 {
     class Program
     {
-        static int max(int a, int b)
-        {
-            int c = a + b;
-            return (c);
-
-        }
+      
     }
 }
