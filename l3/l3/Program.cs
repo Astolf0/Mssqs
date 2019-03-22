@@ -8,15 +8,11 @@ namespace l3
 {
     class Program
     {
-        static void Main(string[] args)
+        static int min(int a, int b)
         {
-            Console.Write("Enter A: ");
-            int a = int.Parse(Console.ReadLine());
+            int c = a - b;
+            return (c);
 
-            Console.Write("Enter B: ");
-            int b = int.Parse(Console.ReadLine());
-
-            Console.ReadKey();
         }
     }
 }
