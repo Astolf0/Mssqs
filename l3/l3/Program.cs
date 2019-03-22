@@ -8,6 +8,9 @@ namespace l3
 {
     class Program
     {
+        static double podeli (ref int a, ref int b)
+         
+        static int umnosh(ref int a, ref int b)
         static int max(int a, int b)
         {
             int c = a + b;
@@ -24,13 +27,10 @@ namespace l3
 
         static void Main(string[] args)
         {
-            Console.Write("Enter A: ");
-            int a = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter B: ");
-            int b = int.Parse(Console.ReadLine());
-
-            Console.ReadKey();
+            int g = a * b;
+            return g;
+            double g = a /Convert.ToDouble(b);
+            return g;
         }
     }
 }
