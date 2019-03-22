@@ -11,7 +11,7 @@ namespace l3
          
         static int umnosh(ref int a, ref int b)
         {
-            int g = a * b
+            int g = a * b;
             return g;
         }
     }
